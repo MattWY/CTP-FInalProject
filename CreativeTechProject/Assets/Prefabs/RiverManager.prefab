@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &196346
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 482392}
+  - 114: {fileID: 11432128}
+  m_Layer: 0
+  m_Name: RiverManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &482392
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 196346}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 89.27795, y: 12.416517, z: 12.697607}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11432128
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 196346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57181960c7164934996030b1418915fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rivertest: {fileID: 124276, guid: 48e7f28fa38d74e4ebbb7945d4996dd3, type: 2}
+  voidSpace: {fileID: 1000011392424556, guid: c54ffaf4675d2ab4496d792e5e78575d, type: 2}
+  tree: {fileID: 131060, guid: ce9c4de3361b3404a8ee09fb7b5624ed, type: 2}
+  deadtree: {fileID: 168548, guid: 0394dc0843381cd4a9ea6a8c873646f9, type: 2}
+  monumentTower: {fileID: 120118, guid: dc7740a9191fc6b488565b0a5d4b9422, type: 2}
+  monumentChurch: {fileID: 188016, guid: d22463cb2be21614180085a16de49260, type: 2}
+  treeGO: {fileID: 0}
+  spaceGO: {fileID: 124276, guid: 48e7f28fa38d74e4ebbb7945d4996dd3, type: 2}
+  ZposList: []
+  XposList: []
+  treeType: 0
+  trees: {fileID: 0}
+  hasRiverGenerated: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 196346}
+  m_IsPrefabParent: 1

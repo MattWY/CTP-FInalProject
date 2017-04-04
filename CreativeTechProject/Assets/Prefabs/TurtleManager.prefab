@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &185060
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 458256}
+  - 114: {fileID: 11491038}
+  m_Layer: 0
+  m_Name: TurtleManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &458256
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 185060}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11491038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 185060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0318986170aad4ca3305d0fd4a5dd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xPos: 0
+  zPos: 0
+  angle: 0
+  newPos: {x: 0, y: 0, z: 0}
+  firstPos: {x: 0, y: 0, z: 0}
+  cubeGO: {fileID: 0}
+  colliderGO: {fileID: 145716, guid: 795867cf294047f40ad37e3fd00dcc67, type: 2}
+  riverColliderGO: {fileID: 154256, guid: 7a035fc8a7f1d1949bea295b896ca9b7, type: 2}
+  currentZ: 0
+  currentX: 0
+  currentAngle: 0
+  currentAngle1: 0
+  current: A
+  pushToStack: 0
+  popFromStack: 0
+  stopGenerating: 0
+  roadMaterial: {fileID: 2100000, guid: 7604425b186bc8a46ab9afb672d12f66, type: 2}
+  cube: {fileID: 1000013490370008, guid: 4659dcbcc6f96084a91de0d18377b94a, type: 2}
+  tower: {fileID: 173910, guid: bd645d52a93b54844ace91eb49d5e5ff, type: 2}
+  house: {fileID: 171006, guid: da14e8e5ed97b564893acef324694945, type: 2}
+  count: 0
+  roadPieces: {fileID: 0}
+  towerPieces: {fileID: 0}
+  roadCollPiececs: {fileID: 0}
+  housePiececs: {fileID: 0}
+  buildingPieces: {fileID: 0}
+  riverColls: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 185060}
+  m_IsPrefabParent: 1
